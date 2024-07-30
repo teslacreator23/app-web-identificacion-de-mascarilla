@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+<body>
+    <center>
+      <h3 class="btn btn-info heading" > Identificacion de mascarilla
+        <hr>
+        <center>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+              El modelo es entrenado en Identificacion de mascarilla
+              <br>
+              <div class="btn btn warning heading_div2">
+                Mascarilla adecuada| Mascarilla inadecuada|  sin Mascarilla|
+              </div>
+            </div>
+          </h3>
+        </center>
+        <center>
+          <br>
+<p class="btn btn-warning results_para_tag"> Objeto:
+  <span id="results_object_name"></span>
+  </p>
+
+  <br><br>
+  <p class="btn btn-warning results_para_tag">Precisión:
+<span id="results_object_accuracy"></span>
+  </p>
+</center>
+<div class="copy_right_footer">
+Desarollado por - Esteban Rodriguez Peña
+</div>
+
+</body>
+<script src="main.js"></script>
+</html>
